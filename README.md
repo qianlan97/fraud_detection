@@ -3,6 +3,7 @@ This project is about solving the binary classification problem (fraud detection
 
 ### Authors
 Kirby Zhou, Wenhao Su, James Lemkin, Zekun Chen, Zhujun Fang,Yuqi Sha, 
+
 Rongfei Li, Hulin Wang, Damu Gao, Bo Xiao, Haoyang Li, Yizhi Huang
 
 ### How to run the scripts
