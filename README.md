@@ -8,7 +8,7 @@ Rongfei Li, Hulin Wang, Damu Gao, Bo Xiao, Haoyang Li, Yizhi Huang
 
 ### How to run the scripts
 The file folder libs consists of multiple utility functions to draw the ROC and PR curves.
-Before running the script, it is extremely important to **extract corresponding function *.py files from the child lib folder and place these lib functions files 
+Before running the script, it is extremely important to **extract corresponding function .py files from the child lib folder and place these lib functions files 
 under the same folder path with other scripts.**
 The output will be automatically saved to current folder or printed out during runtime.
 
