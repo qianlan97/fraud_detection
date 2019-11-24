@@ -36,6 +36,13 @@ def create_report(clf, X_train, Y_train, X_test, Y_test):
     print("TEST\n")
     print(classification_report(Y_test, clf.predict(X_test), target_names=target_names))
 
+print("Here comes the default classifier performance:")
+default = tree.DecisionTreeClassifier()
+default.fit(X_train, y_train)
+create_report(default, X_train, y_train, x_fat, y_fat)
+print("As you can see: default classifier has serious overfitting issues.")
+
+print("Now proceed to parameter analysis")
 max_depths = np.linspace(1, 30, num=15)
 min_samples_leaves = np.linspace(1, 100, num=20)
 
@@ -59,10 +66,9 @@ plt.xlabel('max #leaves')
 plt.ylabel('f1 score')
 plt.show()
 
-
-
 best_model = tree.DecisionTreeClassifier(max_depth=5, min_samples_leaf=10, class_weight={0: 98, 1: 2})
 best_model.fit(X_train, y_train)
+print("Improved model Result:")
 create_report(best_model, X_train, y_train, x_fat, y_fat)
 fig2, aucs = get_decision_ROC(best_model, x_fat.to_numpy(), y_fat.to_numpy())
 fig2.suptitle('ROC with 10-fold cross-validation')
