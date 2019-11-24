@@ -2,7 +2,8 @@
 This project is about solving the binary classification problem (fraud detection) based on the dataset retrieved from https://www.kaggle.com/mlg-ulb/creditcardfraud. Please check the paper for more details.
 
 ### Authors
-Kirby Zhou, Wenhao Su, James Lemkin, Zekun Chen, Zhujun Fang,Yuqi Sha, Rongfei Li, Hulin Wang, Damu Gao, Bo Xiao, Haoyang Li, Yizhi Huang
+Kirby Zhou, Wenhao Su, James Lemkin, Zekun Chen, Zhujun Fang,Yuqi Sha, 
+Rongfei Li, Hulin Wang, Damu Gao, Bo Xiao, Haoyang Li, Yizhi Huang
 
 ### How to run the scripts
 The file folder libs consists of multiple utility functions to draw the ROC and PR curves.
