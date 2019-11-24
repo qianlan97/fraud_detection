@@ -33,7 +33,7 @@ The project consists of file scripts, together with utility functions inside the
 In electronic pdf paper file, every link is connected to the corresponding script file which can retrieve and reproduce the results from the paper.
 
 ### Support
-For any questions contact sensu@ucdavis.edu (email expired after 2020).
+For any questions contact sensu@ucdavis.edu (email expired in 2021).
 
 ### Licence
 The project is using MIT license.
