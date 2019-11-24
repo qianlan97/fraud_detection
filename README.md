@@ -5,7 +5,7 @@ under the same folder path with other scripts.**
 The output will be automatically saved to current folder or printed out during runtime.
 
 ### Outline
-The project consists of file scripts, together with utility functions inside the file folder ```libs```, and dataset from file folder ```https://drive.google.com/drive/folders/1RFZRGtof-Y1xujf7GTjHPbgfYmQuVJBr?usp=sharing ```.
+The project consists of file scripts, together with utility functions inside the file folder ```libs```, and dataset from file folder.
 
 ```RF_new_local.ipynb```: random forest
 
